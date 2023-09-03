@@ -1,0 +1,26 @@
+body{
+    margin-left: 20px;    
+}
+#current-image-container{
+    background-color: rgba(21, 21, 20, 0.499);
+    padding: 30px;
+    width: 690px;
+    margin-top: 20px;
+}
+#search-form button{
+    width: 120px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+#search-form input{
+    width: 100px;
+    height: 35px;
+}
+
+#current-image-container img {
+    width: 650px;
+    height: 650px;
+}

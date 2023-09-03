@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APOD Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Astronomy Picture of the Day</h1>
+    </header>
+    <main>
+        <section id="search">
+            <form id="search-form">
+                <label for="search-input">Select a date:</label>
+                <input type="date" id="search-input" required>
+                <button type="submit">Search</button>
+            </form>
+        </section>
+        <section id="current-image-container">
+            <!-- Image of the day will be displayed here -->
+        </section>
+        <section>
+            <h2>Previous Searches</h2>
+            <ul id="search-history">
+                <!-- Search history items will be added here dynamically -->
+            </ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
